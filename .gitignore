@@ -1,0 +1,26 @@
+# node_modules: dependencias
+node_modules/
+
+# Archivos de build
+dist/
+
+# Archivos de entorno o secretos
+.env
+.env.local
+.env.*.local
+
+# IDEs y editores (VS Code, etc.)
+.vscode/
+*.log
+*.swp
+*.swo
+
+# Sistemas operativos
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Coverage reports (si usás vitest con coverage)
+coverage/
+
+# Archivos de lock (si usás Yarn en vez de npm)
+yarn.lock
